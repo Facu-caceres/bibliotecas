@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1750882076 source:c:\users\cacer\documents\programitas\algoritmos y estructuras de datos\tda_arbol_idx\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"TDA_Arbol_Idx.h"
+
+1750882119 c:\users\cacer\documents\programitas\algoritmos y estructuras de datos\tda_arbol_idx\tda_arbol_idx.h
+	<stdio.h>
+	"C:\Users\cacer\Documents\Programitas\Blibliotecas\TDA_Arbol\TDA_Arbol.h"
+
+1748310844 c:\users\cacer\documents\programitas\blibliotecas\tda_arbol\tda_arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1750882076 source:c:\users\cacer\documents\programitas\algoritmos y estructuras de datos\tda_arbol_idx\tda_arbol_idx.c
+	"TDA_Arbol_Idx.h"
+
