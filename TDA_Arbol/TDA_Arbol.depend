@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1751256751 source:c:\users\cacer\documents\programitas\blibliotecas\tda_arbol\tda_arbol.c
+	"TDA_Arbol.h"
+
+1751256751 c:\users\cacer\documents\programitas\blibliotecas\tda_arbol\tda_arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

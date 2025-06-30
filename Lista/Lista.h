@@ -46,6 +46,8 @@ void recorrerLista(tLista *pl, void (*accion)(void*,void*), void *param);
 
 void eliminarDuplicadosListaOrdenada(tLista *pl, int (*cmp)(const void*,const void*),void (*accion)(void*,const void*));
 
+void invertirLista(tLista* pl);
+
 ///SOLO PARA TESTING!!!
 void mostrar_lista(tLista *pl);
 

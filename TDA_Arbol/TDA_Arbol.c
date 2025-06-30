@@ -499,6 +499,17 @@ void EliminarElemNoClaveArbolBin(tArbol *p, void *d, int (*cmp)(const void *, co
         EliminarRaizArbolBin(p);
 }
 
+void vaciarArbol(tArbol *p)
+{
+    if(!*p)
+        return;
+
+    vaciarArbol(&(*p)->izq);
+    vaciarArbol(&(*p)->der);
+    free((*p)->info);
+    free(*p);
+    *p = NULL;
+}
 
 /////Inserta en el arbol, pero sin reservar memoria par ael dato,
 /////referencia directo el parametro

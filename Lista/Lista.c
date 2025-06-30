@@ -400,3 +400,21 @@ void eliminarDuplicadosListaOrdenada(tLista * pl, int (*cmp)(const void*, const 
         pl = &(*pl)->sig;
     }
 }
+
+void invertirLista(tLista* pl)
+{
+    tNodo* anterior = NULL;
+    tNodo* actual = *pl;
+    tNodo* siguiente = NULL;
+
+    if (!actual || !actual->sig)
+        return;
+    while (actual != NULL)
+    {
+        siguiente = actual->sig;
+        actual->sig = anterior;
+        anterior = actual;
+        actual = siguiente;
+    }
+    *pl = anterior;
+}

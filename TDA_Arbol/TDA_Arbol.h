@@ -22,6 +22,7 @@ typedef struct sNodoArbol
 typedef tNodoArbol *tArbol;
 
 void CrearArbolBin(tArbol *p);
+void vaciarArbol(tArbol *p);
 int InsertarArbolBin(tArbol *p, const void *d, size_t tam, int (*cmp)(const void*,const void *));
 int InsertarRecArbolBin(tArbol *p, const void *d, size_t tam, int (*cmp)(const void*,const void*));
 void RecorrerEnOrdenArbolBin(const tArbol *p, void *params, void (*accion)(void*,size_t,size_t,void*));
